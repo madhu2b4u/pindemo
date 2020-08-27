@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:hint="@string/pin_hint"
+        android:inputType="number"
+        android:maxLength="12"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <ProgressBar
+        android:id="@+id/pbLoadPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnGeneratePin"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/generate_pin"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:id="@+id/tvPinBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/block_hint"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:typeface="monospace"
+      />
+
+</LinearLayout>

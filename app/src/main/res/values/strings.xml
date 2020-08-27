@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pin Demo</string>
+    <string name="pin_hint">Enter 4 – 12 digit number</string>
+    <string name="generate_pin">Generate Pin</string>
+    <string name="block_hint">Generated Pin</string>
+    <string name="error_pin_size">Pin must be between 4 and 12 numbers long</string>
+    <string name="error_invalid_characters">Pin must only contains numbers</string>
+
+
+</resources>
